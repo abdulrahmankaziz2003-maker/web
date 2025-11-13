@@ -1,0 +1,261 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #222831;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 0 0.5rem;
+    max-width: 1200px;
+    
+}
+.n ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+.n a{
+    text-decoration: none;
+    color:mintcream;
+}
+.n a:hover{
+    
+    color:aqua ;
+}
+hr{
+    opacity: 10%;
+}
+.b{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 5rem auto;
+max-width: 1200px;
+}
+.v{
+
+position:absolute;
+transform: translateX(-5.5rem) translateY(1.5rem);
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.h11{
+    font-size: 3rem;
+    color: #eeeeeeee;
+}
+.h2{
+    font-size: 4rem;
+    color: aqua;
+}
+.div2{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.a1{
+    background-color: #00adb5;
+    color: #eeeeeeee;
+border-radius: 24px;
+text-decoration: none;
+padding: 0.5rem 1.5rem;
+text-shadow: 0px 4px 4px rgba(0, 0,0 ,0.5);
+}
+ .a2{
+    background-color: rgba(57,62, 70, 0.75);
+    color: #eeeeeeee;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0,0 ,0.5);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+ }
+ .aboutMe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+ }
+ .textcontenr{
+    display: flex;
+    flex-direction: column;
+ }
+.texttitle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+.Aboutname{
+    color: antiquewhite;
+}
+.Abouttitle{
+    text-align: justify;
+    color: #00adb5;
+}
+.aboutMeper{
+    text-align:justify;
+    color: rgba(238, 238, 238, 0.75);
+}
+.work{
+    background-image: url("assets/assets/svg/background.svg") ;
+    padding: 10rem 10rem;
+    margin: 5rem 0rem;
+}
+.workscontenr{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+    align-items:left;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+.projecttitle{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    font-size: 2rem;
+}
+.work ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.work li{
+    border-radius: 16px;
+    background-color: rgba(57,62, 70, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 1rem 4rem;
+}
+.work li img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    
+}
+.work li:hover{
+    transform: scale(1.5);
+}
+.conatcontenr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin:2rem auto ;
+    max-width: 1200px;
+}
+.contetitlent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.Contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    gap: 20rem;
+
+}
+.Contact h3, .Contact a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.emailandphone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+footer{
+    color: antiquewhite;
+    padding: 2rem;
+    text-align: center;
+}
+@media (max-width: 1023px) {
+    header {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .b {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+    .img1 {
+      width: 400px;
+    }
+    .h11,
+    .t2 {
+      font-size: 2rem;
+    }
+    .v{
+      display: none;
+    }
+    .aboutMe {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 2rem;
+    }
+    .textcontenr {
+      align-items: center;
+      margin: 0rem 5rem;
+      gap: 1rem;
+    }
+    .Aboutname,
+    .Abouttitle {
+      font-size: 2rem;
+    }
+    .light {
+      width: 60px;
+    }
+    .aboutMe img {
+      width: 400px;
+    }
+    .work {
+      padding: 0;
+    }
+    .workscontenr {
+      padding: 5rem 0rem;
+      gap: 3rem;
+    }
+    .projecttitle {
+      margin-left: 1rem;
+    }
+    .work ul {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .conatcontenr {
+      margin: 10rem 5rem;
+      gap: 2rem;
+    }
+    .Contact {
+      flex-direction: column;
+      gap: 1rem;
+      margin-right: 0;
+    }
+}
